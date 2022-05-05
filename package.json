@@ -1,6 +1,6 @@
 {
   "name": "bengala-capacitor-plugin-facebook-analytics",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Provide Facebook analytics functionality to Capacitor-based projects.",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
@@ -38,7 +38,7 @@
     "dist/",
     "ios/",
     "android/",
-    "CapacitorPluginFacebookAnalytics.podspec"
+    "BengalaCapacitorPluginFacebookAnalytics.podspec"
   ],
   "keywords": [
     "capacitor",
