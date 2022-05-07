@@ -9,8 +9,8 @@ import FBSDKCoreKit
 @objc(FacebookAnalytics)
 public class FacebookAnalytics: CAPPlugin {
 
-    @obj func setAdvertiserTrackingEnabled(_ call: CAPPluginCall) {
-        guard let event = call.getString("status") else {
+    @objc func setAdvertiserTrackingEnabled(_ call: CAPPluginCall) {
+        guard let status = call.getString("status") else {
             call.reject("Missing status argument")
             return;
         }
