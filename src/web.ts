@@ -9,6 +9,10 @@ export class FacebookAnalyticsWeb extends WebPlugin implements FacebookAnalytics
     });
   }
 
+  setAdvertiserTrackingEnabled(_: { status: string }): Promise<string> {
+    throw super.unimplemented();
+  }
+
   logEvent(_: { event: string, valueToSum?: number, params?: any }): Promise<string> {
     throw super.unimplemented();
   }
