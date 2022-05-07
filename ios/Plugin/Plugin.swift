@@ -16,8 +16,10 @@ public class FacebookAnalytics: CAPPlugin {
         }
         if(status == "enabled"){
             FBSDKCoreKit.Settings.setAdvertiserTrackingEnabled(true)
+            print("setAdvertiserTrackingEnabled enabled")
         } else {
-            FBSDKCoreKit.Settings.setAdvertiserTrackingEnabled(true)
+            FBSDKCoreKit.Settings.setAdvertiserTrackingEnabled(false)
+            print("setAdvertiserTrackingEnabled disabled")
         }
     }
 
